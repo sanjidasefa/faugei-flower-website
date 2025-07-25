@@ -1,0 +1,57 @@
+@media screen and (max-width: 570px) {
+  header{
+ margin: 20px 16px;
+}
+section{
+  margin: 16px;
+}
+.nav{
+  display: none;
+}
+.banner-section{
+  flex-direction: column-reverse;
+}
+.banner{
+  margin-top: 20px;
+}
+.title{
+  margin-top: 60px;
+}
+.plant-card{
+  grid-template-columns: repeat(2, 1fr)
+}
+.plant-section{
+ margin: 28px 16px;
+}
+.card img{
+  width: 220px;
+}
+.lover{
+  flex-direction: column;
+}
+.badge{
+  display: none;
+}
+.lover img{
+  width: 100%;
+}
+.lover-content{
+  margin: 18px 20px;
+}
+li{
+  margin-left: 0px;
+}
+.discount-sectiont{
+  margin: 160px auto 20px;
+}
+.discount{
+  grid-template-columns: 1fr;
+}
+input{
+  width: 100%;
+  width: 150px;
+}
+.footer{
+ flex-direction: column;
+}
+}

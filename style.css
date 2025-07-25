@@ -24,6 +24,9 @@ section{
   width: 135px;
   height: 82px;
 }
+.nav-link{
+  display: flex;
+}
 .nav-link a{
   margin-right: 20px;
   text-decoration: none;
@@ -102,6 +105,13 @@ button{
   width: 550px;
   height: 596px;
 }
+.badge img{
+  margin-top: -150px;
+  margin-left: 350px;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
 .lover-content{
   margin: 20px 40px;
   text-align: left
@@ -123,11 +133,17 @@ li{
   text-align: center; */
   justify-content: center;
   background-repeat: no-repeat;
+  padding: 30px;
 }
 .discount{
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin: 100px auto;
+}
+.shop-now{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
 }
 .bloom{
   background-image: url(image/deal-bloom.png);
