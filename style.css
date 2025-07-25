@@ -1,0 +1,163 @@
+*{
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+}
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+}
+body{
+  background-color: rgba(212, 211, 211, 0.5); 
+  margin: 0px;
+}
+header{
+ margin: 20px 150px;
+}
+section{
+  margin: 150px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo{
+  width: 135px;
+  height: 82px;
+}
+.nav-link a{
+  margin-right: 20px;
+  text-decoration: none;
+}
+.gray{
+  color: #8987A1;
+}
+.span{
+  font-weight: bolder;
+  color: #252432;;
+}
+.banner-section{
+  display: flex;
+}
+.banner{
+  margin-top: 100px;
+}
+.bennar-title{
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin: 13px auto;
+}
+.span-color{
+  color: #E95A08;
+}
+.bennar-des{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.title{
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+.plant-section{
+  text-align: center;
+  justify-items: center;
+}
+.plant-card{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+.card{
+  background-color: white;
+  text-align: center;
+}
+button{
+  background-color: #E95A08;
+  width: 100%;
+  border: 0px;
+  color: white;
+  padding: 20px 50px;
+  font-size: 1rem;
+}
+.plant-name{
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 20px auto 20px;
+}
+.price{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.lover{
+  display: flex;
+  justify-content: space-between;
+}
+.lover img{
+  width: 550px;
+  height: 596px;
+}
+.lover-content{
+  margin: 20px 40px;
+  text-align: left
+}
+li{
+  margin: 20px auto;
+  text-align: left;
+}
+.discount-sectiont{
+  text-align: center;
+}
+.border{
+  border-radius: 22px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px; 
+  /* justify-content: space-around; */
+  /* justify-items: center;
+  text-align: center; */
+  justify-content: center;
+  background-repeat: no-repeat;
+}
+.discount{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin: 100px auto;
+}
+.bloom{
+  background-image: url(image/deal-bloom.png);
+  background-size: cover;
+  /* text-align: center; */
+}
+.ana{
+  background-image: url(image/deal-ana.png);
+  background-size: cover;
+}
+.zabo{
+  background-image: url(image/deal-zabo.png);
+  background-size: cover;
+}
+.offer{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.white{
+  color: white;
+}
+.join{
+  background-image: url(image/news-letter-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* width: 100%; */
+  margin: 0px;
+  padding: 200px;
+}
+input{
+  padding: 8px 20px;
+  display: inline;
+}
+
