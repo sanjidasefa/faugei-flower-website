@@ -53,5 +53,6 @@ input{
 }
 .footer{
  flex-direction: column;
+ padding: 50px 20px;
 }
 }
