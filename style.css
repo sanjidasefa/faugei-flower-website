@@ -35,6 +35,9 @@ section{
   font-weight: bolder;
   color: #252432;;
 }
+.span img{
+  margin: 0px 3px;
+}
 .banner-section{
   display: flex;
 }
@@ -156,8 +159,25 @@ li{
   margin: 0px;
   padding: 200px;
 }
-input{
-  padding: 8px 20px;
-  display: inline;
+.input-area{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
 }
-
+input{
+  width: 100%;
+  padding: 8px 20px;
+  width: 700px;
+  height: 39px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+.footer-link a, .footer-menu a{
+  display: flex;
+  text-decoration: none;
+  color: #716B80;
+  margin: 32px auto;
+}
